@@ -27,3 +27,7 @@ function removeElementFromBeginningOfArray(existingArray){
   var new2Array = existingArray.slice(1)
   return new2Array
 }
+function destructivelyRemoveElementFromEndOfArray(existingArray){
+  existingArray.pop()
+  return existingArray
+}
