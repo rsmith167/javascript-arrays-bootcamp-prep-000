@@ -5,8 +5,8 @@ function addElementToBeginningOfArray(existingArray, newElement){
    return newArray
 }
 function destructivelyAddElementToBeginningOfArray(existingArray, newEleme){
-   existingArray.unshift(newElement);
-   return existingArray;
+  existingArray.unshift(newElement)
+  return existingArray
 }
 function addElementToEndOfArray(existingArray, newElement){
   var new1Array = [...existingArray, newElement]
