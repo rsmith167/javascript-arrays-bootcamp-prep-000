@@ -5,12 +5,12 @@ function addElementToBeginningOfArray(existingArray, newElement){
    return newArray
 }
 function destructivelyAddElementToBeginningOfArray(existingArray, newElement){
-   existingArray.unshift(newElement)
+   return existingArray.unshift(newElement)
 }
 function addElementToEndOfArray(existingArray, newElement){
   var new1Array = [...existingArray, newElement]
   return new1Array
 }
 function destructivelyAddElementToEndOfArray(existingArray, newElement){
-  existingArray.push(newElement)
+  return existingArray.push(newElement)
 }
